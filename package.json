@@ -1,16 +1,25 @@
 {
-  "homepage":"https://germancejas.github.io/rocejas.makeup",
+  "homepage": "https://germancejas.github.io/rocejas.makeup",
   "name": "rocejas.makeup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
+    "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "dompurify": "^2.2.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.0",
+    "react-icons": "^4.1.0",
+    "react-instagram-embed": "^2.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "predeploy": "npm run build",
