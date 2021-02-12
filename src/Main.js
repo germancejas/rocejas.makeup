@@ -10,6 +10,8 @@ import Courses from "./Courses";
 import Products from "./Products.js";
 import Contact from "./Contact";
 import Subscriptions from "./Subscriptions.js";
+import Avatar from "./galery/Avatar";
+import Vangogh from "./galery/Vangogh";
 
 class Main extends Component {
   render() {
@@ -42,9 +44,13 @@ class Main extends Component {
             <Route path="/products" component={Products}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/subscriptions" component={Subscriptions}/>
+            <Route path="/avatar" component={Avatar}/>
+            <Route path="/vangogh" component={Vangogh}/>
+            
           </div>
             <div className="youTubeMain">
               <iframe 
+                title="youtube"
                 width="800" 
                 height="600"  
                 src="https://www.youtube.com/embed/DnUst6Hz5h0" 

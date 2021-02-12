@@ -28,8 +28,8 @@ class Home extends Component {
         clickToChange
         centered
       >
-    <Link to="/Network">
-      <img src={imageOne}  className="imageOne" alt-text="Galeria" />
+    <Link to="/Avatar">
+      <img src={imageOne}  className="imageOne" alt="Galeria" />
     </Link>
     <Link to="/Network">
       <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
