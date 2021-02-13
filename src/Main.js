@@ -24,7 +24,7 @@ class Main extends Component {
             </div>
           <div className="navbar">
             <img 
-              src='https://fotos.subefotos.com/a8d03c82cb5c51474ef32a5da286a9b7o.png' 
+              src='https://i.ibb.co/GkS58z1/LOGO-FONDO-BLANCO.png' 
               alt="Logo"
               className='logo'
             />

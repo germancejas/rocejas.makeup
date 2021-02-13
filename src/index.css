@@ -139,3 +139,9 @@ ul.header li a {
 .youTubeRedes h1 {
   text-align: center;
 }
+.video-section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: #bd8d56 solid;
+}
