@@ -12,6 +12,23 @@ import Contact from "./Contact";
 import Subscriptions from "./Subscriptions.js";
 import Avatar from "./galery/Avatar";
 import Vangogh from "./galery/Vangogh";
+import EsqueletoDiaYNoche from "./galery/EsqueletoDiaYNoche";
+import Enredados from "./galery/Enredados";
+import Dragon from "./galery/Dragon";
+import Dory from "./galery/Dory";
+import Dobby from "./galery/Dobby";
+import Esqueleto from "./galery/Esqueleto";
+import Demogorgon from "./galery/Demogorgon";
+import CosmoYWanda from "./galery/CosmoYWanda";
+import ConejoBlanco from "./galery/ConejoBlanco";
+import Cebra from "./galery/Cebra";
+import CamiloYEvaluna from "./galery/CamiloYEvaluna";
+import Brillos from "./galery/Brillos";
+import Araña from "./galery/Araña";
+import Ajedrez from "./galery/Ajedrez";
+import Abstracto from "./galery/Abstracto";
+import Robot from "./galery/Robot";
+
 
 class Main extends Component {
   render() {
@@ -46,7 +63,22 @@ class Main extends Component {
             <Route path="/subscriptions" component={Subscriptions}/>
             <Route path="/avatar" component={Avatar}/>
             <Route path="/vangogh" component={Vangogh}/>
-            
+            <Route path="/esqueletoDiaYNoche" component={EsqueletoDiaYNoche}/>
+            <Route path="/enredados" component={Enredados}/>
+            <Route path="/dragon" component={Dragon}/>
+            <Route path="/dory" component={Dory}/>
+            <Route path="/dobby" component={Dobby}/>
+            <Route path="/esqueleto" component={Esqueleto}/>
+            <Route path="/Demogorgon" component={Demogorgon}/>
+            <Route path="/CosmoYWanda" component={CosmoYWanda}/>
+            <Route path="/ConejoBlanco" component={ConejoBlanco}/>
+            <Route path="/Cebra" component={Cebra}/>
+            <Route path="/CamiloYEvaluna" component={CamiloYEvaluna}/>
+            <Route path="/Brillos" component={Brillos}/>
+            <Route path="/Araña" component={Araña}/>
+            <Route path="/Ajedrez" component={Ajedrez}/>
+            <Route path="/Abstracto" component={Abstracto}/>
+            <Route path="/Robot" component={Robot}/>
           </div>
             <div className="youTubeMain">
               <iframe 

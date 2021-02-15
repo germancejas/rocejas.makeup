@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Dragon extends Component {
+class Brillos extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/fxy52nM/PORTADA-2.jpg'
-        var imageTwo = 'https://i.ibb.co/qF9CNqs/dragon.jpg'
-        var imageThree ='https://i.ibb.co/1MCgJRL/dragon2.jpg'        
+        var imageOne = 'https://i.ibb.co/jgnTGC6/IMG-9915-Facetune-26-05-2020-22-47-13-Original-jpg.jpg'
+        var imageTwo = 'https://i.ibb.co/gZXm4g9/IMG-9942-Facetune-26-05-2020-22-40-35-Original-jpg.jpg'      
         return (
             <div>
              <div>
@@ -23,15 +22,23 @@ class Dragon extends Component {
               >  
                   <img src={imageOne}  className="imageOne" alt="Galeria" />
                   <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
-                  <img src={imageThree} className="imageThree" alt="Galeria" />
               </Carousel>   
             </div>
-              <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
-              </div>
+            <div className="video-section">
+                <iframe 
+                    title="brillos"
+                    src="https://player.vimeo.com/video/512540911" 
+                    width="640" 
+                    height="1138" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
            </div>
         )
     }
 }
  
-export default Dragon;
+export default Brillos;

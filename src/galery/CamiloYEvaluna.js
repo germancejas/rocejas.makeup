@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Dragon extends Component {
+class CamiloYEvaluna extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/fxy52nM/PORTADA-2.jpg'
-        var imageTwo = 'https://i.ibb.co/qF9CNqs/dragon.jpg'
-        var imageThree ='https://i.ibb.co/1MCgJRL/dragon2.jpg'        
+        var imageOne = 'https://i.ibb.co/RpyHm34/PORTADA-9.jpg'
+        var imageTwo = 'https://i.ibb.co/LnGfSvk/Camilo1.jpg'
+        var imageThree ='https://i.ibb.co/FY5wf7q/Camilo2.jpg'        
         return (
             <div>
              <div>
@@ -34,4 +34,4 @@ class Dragon extends Component {
     }
 }
  
-export default Dragon;
+export default CamiloYEvaluna;

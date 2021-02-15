@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Dory extends Component {
+class Araña extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/qybrVfg/PORTADA-3.jpg'
-        var imageTwo = 'https://i.ibb.co/VL35mZZ/dory2.jpg'
-        var imageThree ='https://i.ibb.co/jzWX8wK/dory.jpg'        
+        var imageOne = 'https://i.ibb.co/FHCdTjD/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/dQpMw56/Ara-a1.jpg'
+        var imageThree ='https://i.ibb.co/5Rh6YyG/Ara-a2.jpg'        
         return (
             <div>
              <div>
@@ -27,9 +27,9 @@ class Dory extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-              <iframe 
-                    title="dory"
-                    src="https://player.vimeo.com/video/511591348" 
+                <iframe 
+                    title="araña"
+                    src="https://player.vimeo.com/video/512538925" 
                     width="640" 
                     height="1138" 
                     frameborder="0" 
@@ -37,10 +37,19 @@ class Dory extends Component {
                     allowfullscreen 
                     align="center">
                 </iframe>
+                <iframe 
+                    title="araña2"
+                    src="https://player.vimeo.com/video/512538770" 
+                    width="640" 
+                    height="1138" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
               </div>
            </div>
         )
     }
 }
  
-export default Dory;
+export default Araña;

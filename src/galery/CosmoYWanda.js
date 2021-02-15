@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Dragon extends Component {
+class CosmoYWanda extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/fxy52nM/PORTADA-2.jpg'
-        var imageTwo = 'https://i.ibb.co/qF9CNqs/dragon.jpg'
-        var imageThree ='https://i.ibb.co/1MCgJRL/dragon2.jpg'        
+        var imageOne = 'https://i.ibb.co/CQx3wRZ/PORTADA-1.jpg'
+        var imageTwo = 'https://i.ibb.co/0B2xdyj/Wanda.jpg'
+        var imageThree ='https://i.ibb.co/L8CMMtZ/Cosmo.jpg'        
         return (
             <div>
              <div>
@@ -27,11 +27,20 @@ class Dragon extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
+                <iframe
+                    title="cosmoywanda" 
+                    src="https://player.vimeo.com/video/512541989" 
+                    width="640" 
+                    height="1138" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )
     }
 }
  
-export default Dragon;
+export default CosmoYWanda;
