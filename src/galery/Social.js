@@ -3,9 +3,11 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Social extends Component {
     render() {
-        var imageOne = 'https://fotos.subefotos.com/3a71d866c3a6ee1f3fef15567f6758d6o.jpg'
-        var imageTwo = 'https://fotos.subefotos.com/823c38887f9a847345b56b1344241975o.jpg'
-        var imageThree ='https://fotos.subefotos.com/c7520e892b6270a8b0c41df5aa9d7475o.jpg'        
+        var social1 = 'https://i.ibb.co/NZzCLR3/PORTADA.jpg';
+        var social2 = 'https://i.ibb.co/tx0d4S5/social1.jpg';
+        var social3 ='https://i.ibb.co/W2DqbPX/PORTADA-1.jpg';    
+        var social4 = "https://i.ibb.co/FWWXnZY/social2.jpg";
+        var social5 = "https://i.ibb.co/6mXtzPR/social3.jpg";    
         return (
             <div>
              <div>
@@ -21,13 +23,15 @@ class Social extends Component {
                   clickToChange
                   centered
               >  
-                  <img src={imageOne}  className="imageOne" alt="Galeria" />
-                  <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
-                  <img src={imageThree} className="imageThree" alt="Galeria" />
+                  <img src={social1}  className="social1" alt="Social 1" />
+                  <img src={social2} className="social2" alt="Social 2" /> 
+                  <img src={social3} className="social3" alt="Social 3" />
+                  <img src={social4} className="social4" alt="Social 4" />
+                  <img src={social5} className="social5" alt="Social 5" />
               </Carousel>   
             </div>
               <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
+              
               </div>
            </div>
         )

@@ -4,9 +4,9 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Vangogh extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/4JbXBhY/IMG-2297-Facetune-16-07-2020-19-24-31-Original.jpg'
-        var imageTwo = 'https://i.ibb.co/wztkhGS/IMG-2329-Facetune-16-07-2020-19-30-30-Original.jpg'
-        var imageThree ='https://i.ibb.co/M6fdChq/IMG-2317-Facetune-16-07-2020-19-26-43-Original.jpg'
+        var imageOne = 'https://i.ibb.co/gmrZGx1/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/XtHCZLr/IMG-2317-Facetune-16-07-2020-19-26-43-Original.jpg'
+        var imageThree ='https://i.ibb.co/4JbXBhY/IMG-2297-Facetune-16-07-2020-19-24-31-Original.jpg'
         
         return (
          <div>

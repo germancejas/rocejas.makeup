@@ -28,7 +28,23 @@ import Araña from "./galery/Araña";
 import Ajedrez from "./galery/Ajedrez";
 import Abstracto from "./galery/Abstracto";
 import Robot from "./galery/Robot";
-
+import Groot from "./galery/Groot";
+import EsqueletoMariposa from "./galery/EsqueletoMariposa";
+import Tigre from "./galery/Tigre";
+import Sirena from "./galery/Sirena";
+import Simba from "./galery/Simba";
+import Payaso from "./galery/Payaso";
+import Paisaje from "./galery/Paisaje";
+import Olaf from "./galery/Olaf";
+import Olaf2 from "./galery/Olaf2";
+import CadaverdelaNovia from "./galery/CadaverdelaNovia";
+import Netflix from "./galery/Netflix";
+import Mascara from "./galery/Mascara";
+import Mariposa from "./galery/Mariposa";
+import LiloYStitch from "./galery/LiloYStitch";
+import Leon from "./galery/Leon";
+import Ola from "./galery/Ola";
+import Up from "./galery/Up";
 
 class Main extends Component {
   render() {
@@ -79,6 +95,23 @@ class Main extends Component {
             <Route path="/Ajedrez" component={Ajedrez}/>
             <Route path="/Abstracto" component={Abstracto}/>
             <Route path="/Robot" component={Robot}/>
+            <Route path="/Groot" component={Groot}/>
+            <Route path="/EsqueletoMariposa" component={EsqueletoMariposa}/>
+            <Route path="/Tigre" component={Tigre}/>
+            <Route path="/Sirena" component={Sirena}/>
+            <Route path="/Simba" component={Simba}/>
+            <Route path="/Payaso" component={Payaso}/>
+            <Route path="/Paisaje" component={Paisaje}/>
+            <Route path="/Olaf" component={Olaf}/>
+            <Route path="/Olaf2" component={Olaf2}/>
+            <Route path="/CadaverdelaNovia" component={CadaverdelaNovia}/>
+            <Route path="/Netflix" component={Netflix}/>
+            <Route path="/Mascara" component={Mascara}/>
+            <Route path="/Mariposa" component={Mariposa}/>
+            <Route path="/LiloYStitch" component={LiloYStitch}/>
+            <Route path="/Leon" component={Leon}/>
+            <Route path="/Ola" component={Ola}/>
+            <Route path="/Up" component={Up}/>
           </div>
             <div className="youTubeMain">
               <iframe 

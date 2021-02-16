@@ -27,7 +27,26 @@ class Grinch extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
+                <iframe
+                    title="grinch2" 
+                    src="https://player.vimeo.com/video/512553115" 
+                    width="640" 
+                    height="1138" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>  
+                <iframe 
+                    title="grinch"
+                    src="https://player.vimeo.com/video/512552529" 
+                    width="640" 
+                    height="1138" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

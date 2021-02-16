@@ -3,17 +3,18 @@ import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import { Link } from 'react-router-dom';
 
+
 class Home extends Component {
    render() {
-    var imageOne = 'https://fotos.subefotos.com/3a71d866c3a6ee1f3fef15567f6758d6o.jpg';
+    var leon = 'https://i.ibb.co/ZgfMW9W/PORTADA-1.jpg';
     var robot = 'https://i.ibb.co/swNcND3/PORTADA-3.jpg';
     var avatar ='https://i.ibb.co/1QMx9k6/PORTADa-2.jpg';
-    var imageFour = "https://fotos.subefotos.com/826c93ac2409f320549f66a950120346o.jpg";
-    var imageFive = "https://fotos.subefotos.com/269255f036739c2ef790a0a40461c86eo.jpg";
+    var imageFour = "";
+    var esqueletoMariposa = "https://i.ibb.co/cLqKNcw/PORTADA.jpg";
     var dragon = "https://i.ibb.co/fxy52nM/PORTADA-2.jpg";
-    var imageSeven = "https://fotos.subefotos.com/6dd853b5cbb77f5c2863b5f443d8e5c0o.jpg";
-    var imageEight = "https://fotos.subefotos.com/8f791e5f6d76691e47572a897f2f9025o.jpg";
-    var imageNine = "https://fotos.subefotos.com/16d9f2324634bc216a51d75af31570cao.jpg";
+    var mariposa = "https://i.ibb.co/Gnpk44z/PORTADA-2.jpg";
+    var simba = "https://i.ibb.co/3CJ4XSc/PORTADA.jpg";
+    var mascara = "https://i.ibb.co/RCzV65L/PORTADA-1.jpg";
     var esqueletoDiaYNoche = "https://i.ibb.co/WcJWZnC/PORTADA-5.jpg";
     var enredados = "https://i.ibb.co/56n9tgk/PORTADA.jpg";
     var dory = "https://i.ibb.co/qybrVfg/PORTADA-3.jpg";
@@ -29,14 +30,23 @@ class Home extends Component {
     var conejoblanco = "https://i.ibb.co/QXRnXMr/PORTADA-7.jpg";
     var demogorgon = "https://i.ibb.co/8XJDPSX/PORTADA-6.jpg";
     var grinch = "";
-    var olaf = "";
-    var payaso = "";
-    var sirena = "";
-    var social = "";
-    var stitch = "";
+    var olaf = "https://i.ibb.co/4V30bdF/PORTADA-1.jpg";
+    var olaf2 = "https://i.ibb.co/YDR0g6v/PORTADA.jpg"
+    var payaso = "https://i.ibb.co/4SYw3jf/PORTADA.jpg";
+    var sirena = "https://i.ibb.co/fdrg2dQ/PORTADA.jpg";
+    var social = "https://i.ibb.co/NZzCLR3/PORTADA.jpg";
+    var stitch = "https://i.ibb.co/FbYC3ZL/PORTADA.jpg";
     var tigre = "";
-    var up = "";
+    var up = "https://i.ibb.co/LrL7JtR/PORTADA.jpg";
+    var groot = "https://i.ibb.co/xDHVNpT/PORTADA.jpg";
     var cosmoywanda = "https://i.ibb.co/CQx3wRZ/PORTADA-1.jpg";
+    var vangogh = "https://i.ibb.co/gmrZGx1/PORTADA.jpg";
+    var paisaje = "https://i.ibb.co/rZYPV6n/PORTADA.jpg";
+    var cadaverdelanovia = "https://i.ibb.co/BqBZkQP/PORTADA-2.jpg"
+    var netflix = "https://i.ibb.co/fSGjZVD/PORTADA.jpg";
+    var liloystitch = "https://i.ibb.co/zbF2nkB/PORTADA.jpg";
+    var ola = "https://i.ibb.co/cCjLDrJ/PORTADA.jpg";
+
     return (
       <div>
       <Carousel
@@ -51,8 +61,11 @@ class Home extends Component {
         clickToChange
         centered
       >
-    <Link to="/">
-      <img src={imageOne}  className="imageOne" alt="Galeria" />
+    <Link to="/Ola">
+      <img src={ola} className="Ola" alt="Ola" />
+    </Link>    
+    <Link to="/Leon">
+      <img src={leon} className="Leon" alt="Leon" />
     </Link>
     <Link to="/Robot">
       <img src={robot} className="robot" alt="Robot" /> 
@@ -63,20 +76,20 @@ class Home extends Component {
     <Link to="/Network">
       <img src={imageFour} className="imageFour" alt="Galeria" />
     </Link>  
-    <Link to="/Network">
-      <img src={imageFive} className="imageFive" alt="Galeria" />
+    <Link to="/EsqueletoMariposa">
+      <img src={esqueletoMariposa} className="EsqueletoMariposa" alt="Esqueleto Mariposa" />
     </Link>  
     <Link to="/dragon">
       <img src={dragon} className="dragon" alt="dragon" />
     </Link>  
     <Link to="/Network">
-      <img src={imageSeven} className="imageSeven" alt="Galeria" />
+      <img src={mariposa} className="mariposa" alt="Mariposa" />
     </Link>  
-    <Link to="/Network">
-      <img src={imageEight} className="imageEight" alt="Galeria" />
+    <Link to="/Simba">
+      <img src={simba} className="simba" alt="Simba" />
     </Link>  
-    <Link to="/Network">
-      <img src={imageNine} className="imageNine" alt="Galeria" />
+    <Link to="/Mascara">
+      <img src={mascara} className="mascara" alt="Mascara" />
     </Link>  
     <Link to="/EsqueletoDiaYNoche">
       <img src={esqueletoDiaYNoche} className="esqueletoDiaYNoche" alt="EsqueletoDiaYNoche" />
@@ -101,7 +114,19 @@ class Home extends Component {
     </Link> 
     <Link to="/Ajedrez">
       <img src={ajedrez} className="ajedrez" alt="Ajedrez" />
-    </Link>     
+    </Link>
+    <Link to="/Groot">
+      <img src={groot} className="groot" alt="Groot" />
+    </Link> 
+    <Link to="/VanGogh">
+      <img src={vangogh} className="Vangogh" alt="Vangogh" />
+    </Link>
+    <Link to="/Paisaje">
+      <img src={paisaje} className="Paisaje" alt="Paisaje" />
+    </Link> 
+    <Link to="/LiloYStitch">
+      <img src={liloystitch} className="LiloYStitch" alt="LiloYStitch" />
+    </Link>            
   </Carousel>
   <Carousel
         arrows
@@ -115,6 +140,9 @@ class Home extends Component {
         clickToChange
         centered
       >
+        <Link to="/Netflix">
+        <img src={netflix} className="Netflix" alt="Netflix" />
+        </Link> 
         <Link to="/Araña">
         <img src={araña} className="araña" alt="Araña" />
         </Link> 
@@ -136,15 +164,15 @@ class Home extends Component {
         <Link to="/Demogorgon">
         <img src={demogorgon} className="demogorgon" alt="Demogorgon" />
         </Link>
-        <Link to="/Dragon">
-        <img src={dragon} className="dragon" alt="Dragon" />
-        </Link>     
         <Link to="/Grinch">
         <img src={grinch} className="grinch" alt="Grinch" />
         </Link>              
         <Link to="/Olaf">
         <img src={olaf} className="olaf" alt="Olaf" />
-        </Link>     
+        </Link>
+        <Link to="/Olaf2">
+        <img src={olaf2} className="olaf2" alt="Olaf2" />
+        </Link>        
         <Link to="/Payaso">
         <img src={payaso} className="payaso" alt="Payaso" />
         </Link>     
@@ -162,7 +190,10 @@ class Home extends Component {
         </Link>
         <Link to="/Tigre">
         <img src={tigre} className="tigre" alt="Tigre" />
-        </Link>  
+        </Link>
+        <Link to="/CadaverdelaNovia">
+        <img src={cadaverdelanovia} className="cadaverdelanovia" alt="Cadaver de la Novia" />
+        </Link>    
     </Carousel>   
 </div>    
     );

@@ -26,9 +26,6 @@ class Dobby extends Component {
                   <img src={imageThree} className="imageThree" alt="Galeria" />
               </Carousel>   
             </div>
-              <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
-              </div>
            </div>
         )
     }

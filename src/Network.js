@@ -7,6 +7,12 @@ import DOMPurify from "dompurify";
 
 
 class Network extends Component {
+  componentDidUpdate(prevProps) {
+    // Uso tipico (no olvides de comparar las props):
+    if (this.props.userID !== prevProps.userID) {
+      this.fetchData(this.props.userID);
+    }
+  }
   render() {
     const dirty = `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@rocejas.makeup/video/6908132758262910213" data-video-id="6908132758262910213" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@rocejas.makeup" href="https://www.tiktok.com/@rocejas.makeup">@rocejas.makeup</a> <p>1000 likes y subo el proceso 😊❤️ <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">##parati</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">##foryou</a> <a title="makeup" target="_blank" href="https://www.tiktok.com/tag/makeup">##makeup</a> <a title="robot" target="_blank" href="https://www.tiktok.com/tag/robot">##robot</a></p> <a target="_blank" title="♬ sonido original - Ro Cejas" href="https://www.tiktok.com/music/sonido-original-6908132743092128517">♬ sonido original - Ro Cejas</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>`
     

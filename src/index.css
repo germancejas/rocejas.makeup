@@ -68,36 +68,7 @@ ul.header li a {
   height:100%;
   background-color: #BD8D56;
 }
-.imageOne {
-  width:500px;
-}
-.robot {
-  width:535px;
-}
-.avatar {
-  width:500px;
-}
-.imageFour{
-  width:500px;
-}
-.imageFive {
-  width:500px;
-}
-.imageSix {
-  width:500px;
-}
-.imageSeven{
-  width:503px;
-}
-.imageEight{
-  width:535px;
-}
-.imageNine{
-  width:535px;
-}
-.imageTen{
-  width:535px;
-}
+
 .youTubeMain {
   display:flex;
   align-items: center;
