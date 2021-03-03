@@ -29,14 +29,24 @@ class EsqueletoMariposa extends Component {
             <div className="video-section">
             <iframe 
                 title="esqueletomariposa"
-                src="https://player.vimeo.com/video/512549530" 
+                src="https://www.youtube.com/embed/qu0b-5_D7eM"
                 width="640" 
-                height="1138" 
+                height="950" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen
                 >
                 </iframe>
+                <iframe 
+                    title="esqueletomariposa1"
+                    src="https://player.vimeo.com/video/512549530"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>    
             </div>
            </div>
         )

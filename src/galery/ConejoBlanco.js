@@ -30,8 +30,8 @@ class ConejoBlanco extends Component {
                 <iframe   
                     title="conejoblanco"
                     src="https://player.vimeo.com/video/512541722" 
-                    width="640" 
-                    height="1138" 
+                    width="600" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

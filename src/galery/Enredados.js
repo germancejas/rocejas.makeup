@@ -29,18 +29,18 @@ class Enredados extends Component {
               <div className="video-section">
               <iframe 
                 title="enredados1"
-                src="https://player.vimeo.com/video/511591348" 
+                src="https://www.youtube.com/embed/xK3MdRKg7MA" 
                 width="640" 
-                height="1138" 
+                height="950" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen 
                 align="center"></iframe>
             <iframe 
                 title="enredados2"
-                src="https://player.vimeo.com/video/511591348" 
+                src="https://www.youtube.com/embed/toBFzxrBC5M" 
                 width="640" 
-                height="1138" 
+                height="950" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen 

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Ola extends Component {
+class HarleyQueen extends Component {
     render() {
-        var ola = 'https://i.ibb.co/cCjLDrJ/PORTADA.jpg'
-        var ola2 = 'https://i.ibb.co/vQtWq5m/laola.jpg'
-        var ola3 ='https://i.ibb.co/HPk56LR/laola2.jpg'        
+        var harleyqueen = 'https://i.ibb.co/3sPTZd6/PORTADA.jpg'
+        var harleyqueen1 = 'https://i.ibb.co/vkQk32h/harley.jpg' 
+        var harleyqueen2 = 'https://i.ibb.co/JymjD2q/harley2.jpg'      
         return (
             <div>
              <div>
@@ -21,15 +21,15 @@ class Ola extends Component {
                   clickToChange
                   centered
               >  
-                  <img src={ola}  className="ola" alt="ola" />
-                  <img src={ola2} className="ola2" alt="Ola2" /> 
-                  <img src={ola3} className="ola3" alt="Ola3" />
+                  <img src={harleyqueen}  className="harleyqueen" alt="Harley Queen" />
+                  <img src={harleyqueen1} className="harleyqueen1" alt="Harley Queen 1" /> 
+                  <img src={harleyqueen2} className="harleyqueen2" alt="Harley Queen 2" />
               </Carousel>   
             </div>
               <div className="video-section">
               <iframe 
-                    title="ola"
-                    src="https://www.youtube.com/embed/fcCKENOqa5w" 
+                    title="harleyqueen"
+                    src="https://player.vimeo.com/video/512931836"
                     width="640" 
                     height="950" 
                     frameborder="0" 
@@ -38,8 +38,8 @@ class Ola extends Component {
                 >
                 </iframe>
                 <iframe 
-                    title="ola1"
-                    src="https://www.youtube.com/embed/oJ0m2sYb5Pc"
+                    title="harleyqueen1"
+                    src="https://www.youtube.com/embed/Qs_l_NZ9ALA"
                     width="640" 
                     height="950" 
                     frameborder="0" 
@@ -53,4 +53,4 @@ class Ola extends Component {
     }
 }
  
-export default Ola;
+export default HarleyQueen;

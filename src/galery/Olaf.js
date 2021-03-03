@@ -28,6 +28,7 @@ class Olaf extends Component {
             </div>
               <div className="video-section">
                 <iframe 
+                    title="olaf1"
                     src="https://streamable.com/e/63owty" 
                     frameborder="0" 
                     width="640" 
@@ -37,6 +38,26 @@ class Olaf extends Component {
                     allowfullscreen
                     >
                 </iframe>
+                <iframe 
+                    title="olaf2"
+                    src="https://streamable.com/e/mt927o" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe> 
+                <iframe 
+                    title="olaf3"
+                    src="https://www.youtube.com/embed/2Up-pr8axF8" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>   
               </div>
            </div>
         )

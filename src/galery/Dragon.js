@@ -31,12 +31,22 @@ class Dragon extends Component {
                     title="dragon"
                     src="https://player.vimeo.com/video/512543854" 
                     width="640" 
-                    height="1131" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
-                    >
-                    </iframe>
+                >
+                </iframe>
+                <iframe 
+                    title="dragon1"
+                    src="https://www.youtube.com/embed/onXB7sAprcM" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
             </div>
            </div>
         )

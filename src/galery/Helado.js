@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Ola extends Component {
+class Helado extends Component {
     render() {
-        var ola = 'https://i.ibb.co/cCjLDrJ/PORTADA.jpg'
-        var ola2 = 'https://i.ibb.co/vQtWq5m/laola.jpg'
-        var ola3 ='https://i.ibb.co/HPk56LR/laola2.jpg'        
+        var helado = 'https://i.ibb.co/Yjbf2Jt/PORTADA.jpg'
+        var helado1 = 'https://i.ibb.co/sm89m6D/helado.jpg'       
         return (
             <div>
              <div>
@@ -21,25 +20,15 @@ class Ola extends Component {
                   clickToChange
                   centered
               >  
-                  <img src={ola}  className="ola" alt="ola" />
-                  <img src={ola2} className="ola2" alt="Ola2" /> 
-                  <img src={ola3} className="ola3" alt="Ola3" />
+                  <img src={helado}  className="helado" alt="Helado" />
+                  <img src={helado1} className="helado1" alt="Helado1" /> 
+
               </Carousel>   
             </div>
               <div className="video-section">
               <iframe 
-                    title="ola"
-                    src="https://www.youtube.com/embed/fcCKENOqa5w" 
-                    width="640" 
-                    height="950" 
-                    frameborder="0" 
-                    allow="autoplay; fullscreen" 
-                    allowfullscreen
-                >
-                </iframe>
-                <iframe 
-                    title="ola1"
-                    src="https://www.youtube.com/embed/oJ0m2sYb5Pc"
+                    title="helado"
+                    src="https://www.youtube.com/embed/ybZT_d3_ugk"
                     width="640" 
                     height="950" 
                     frameborder="0" 
@@ -53,4 +42,4 @@ class Ola extends Component {
     }
 }
  
-export default Ola;
+export default Helado;

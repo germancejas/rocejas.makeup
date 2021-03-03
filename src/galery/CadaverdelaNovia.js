@@ -27,6 +27,16 @@ class CadaverdelaNovia extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="cadaverdelanovia"
+                    src="https://www.youtube.com/embed/Y_7IW8A45WA" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>  
               </div>
            </div>
         )

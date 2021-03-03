@@ -3,9 +3,9 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Groot extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/FHCdTjD/PORTADA.jpg'
-        var imageTwo = 'https://i.ibb.co/dQpMw56/Ara-a1.jpg'
-        var imageThree ='https://i.ibb.co/5Rh6YyG/Ara-a2.jpg'        
+        var imageOne = 'https://i.ibb.co/yh3H9B5/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/StPCNWD/groot.jpg'
+        var imageThree ='https://i.ibb.co/wWF12NC/groot2.jpg'        
         return (
             <div>
              <div>
@@ -29,14 +29,34 @@ class Groot extends Component {
               <div className="video-section">
                 <iframe 
                     title="groot"
-                    src="https://player.vimeo.com/video/512552143" 
+                    src="https://www.youtube.com/embed/D21HaWI_90s"
                     width="640" 
-                    height="1138" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
                     >
-                    </iframe>
+                </iframe>
+                <iframe 
+                    title="groot2"
+                    src="https://www.youtube.com/embed/y7JHaTjgHSo" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                    title="groot3"
+                    src="https://player.vimeo.com/video/512552143" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

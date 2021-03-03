@@ -47,6 +47,12 @@ import Ola from "./galery/Ola";
 import Up from "./galery/Up";
 import Stitch from "./galery/Stitch";
 import Social from "./galery/Social";
+import Helado from "./galery/Helado";
+import HarryStyles from "./galery/HarryStyles";
+import HarleyQueen from "./galery/HarleyQueen";
+import Grinch from "./galery/Grinch";
+import GatoSonriente from "./galery/GatoSonriente";
+
 
 class Main extends Component {
   render() {
@@ -116,6 +122,11 @@ class Main extends Component {
             <Route path="/Up" component={Up}/>
             <Route path="/Stitch" component={Stitch}/>
             <Route path="/Social" component={Social}/>
+            <Route path="/Helado" component={Helado}/>
+            <Route path="/HarryStyles" component={HarryStyles}/>
+            <Route path="/HarleyQueen" component={HarleyQueen}/>
+            <Route path="/Grinch" component={Grinch}/>
+            <Route path="/GatoSonriente" component={GatoSonriente}/>
           </div>
             <div className="youTubeMain">
               <iframe 

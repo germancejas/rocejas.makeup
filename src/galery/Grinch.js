@@ -3,9 +3,9 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Grinch extends Component {
     render() {
-        var imageOne = 'https://fotos.subefotos.com/3a71d866c3a6ee1f3fef15567f6758d6o.jpg'
-        var imageTwo = 'https://fotos.subefotos.com/823c38887f9a847345b56b1344241975o.jpg'
-        var imageThree ='https://fotos.subefotos.com/c7520e892b6270a8b0c41df5aa9d7475o.jpg'        
+        var imageOne = 'https://i.ibb.co/gd7MY5L/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/ry0c7by/grinch.jpg'
+    
         return (
             <div>
              <div>
@@ -23,15 +23,16 @@ class Grinch extends Component {
               >  
                   <img src={imageOne}  className="imageOne" alt="Galeria" />
                   <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
-                  <img src={imageThree} className="imageThree" alt="Galeria" />
+
               </Carousel>   
             </div>
               <div className="video-section">
+
                 <iframe
                     title="grinch2" 
                     src="https://player.vimeo.com/video/512553115" 
                     width="640" 
-                    height="1138" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -41,7 +42,7 @@ class Grinch extends Component {
                     title="grinch"
                     src="https://player.vimeo.com/video/512552529" 
                     width="640" 
-                    height="1138" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

@@ -9,7 +9,7 @@ class Home extends Component {
     var leon = 'https://i.ibb.co/ZgfMW9W/PORTADA-1.jpg';
     var robot = 'https://i.ibb.co/swNcND3/PORTADA-3.jpg';
     var avatar ='https://i.ibb.co/1QMx9k6/PORTADa-2.jpg';
-    var imageFour = "";
+    var gatosonriente = "https://i.ibb.co/2kRLjHw/PORTADA.jpg";
     var esqueletoMariposa = "https://i.ibb.co/cLqKNcw/PORTADA.jpg";
     var dragon = "https://i.ibb.co/fxy52nM/PORTADA-2.jpg";
     var mariposa = "https://i.ibb.co/Gnpk44z/PORTADA-2.jpg";
@@ -23,13 +23,12 @@ class Home extends Component {
     var abstracto = "https://i.ibb.co/6RZWwjY/PORTADA-1.jpg";
     var ajedrez = "https://i.ibb.co/fpRPCw5/PORTADA-1.jpg";
     var araña = "https://i.ibb.co/FHCdTjD/PORTADA.jpg";
-    var arcoiris = "";
-    var brillos = "";
+    var brillos = "https://i.ibb.co/8XRmJxr/IMG-9915-Facetune-26-05-2020-22-47-13-Original.jpg";
     var camiloyevaluna = "https://i.ibb.co/RpyHm34/PORTADA-9.jpg";
     var cebra = "https://i.ibb.co/7v7CHrr/PORTADA-8.jpg";
     var conejoblanco = "https://i.ibb.co/QXRnXMr/PORTADA-7.jpg";
     var demogorgon = "https://i.ibb.co/8XJDPSX/PORTADA-6.jpg";
-    var grinch = "";
+    var grinch = "https://i.ibb.co/gd7MY5L/PORTADA.jpg";
     var olaf = "https://i.ibb.co/4V30bdF/PORTADA-1.jpg";
     var olaf2 = "https://i.ibb.co/YDR0g6v/PORTADA.jpg"
     var payaso = "https://i.ibb.co/4SYw3jf/PORTADA.jpg";
@@ -38,7 +37,7 @@ class Home extends Component {
     var stitch = "https://i.ibb.co/FbYC3ZL/PORTADA.jpg";
     var tigre = "https://i.ibb.co/yPX72hK/PORTADA.jpg";
     var up = "https://i.ibb.co/LrL7JtR/PORTADA.jpg";
-    var groot = "https://i.ibb.co/xDHVNpT/PORTADA.jpg";
+    var groot = "https://i.ibb.co/yh3H9B5/PORTADA.jpg";
     var cosmoywanda = "https://i.ibb.co/CQx3wRZ/PORTADA-1.jpg";
     var vangogh = "https://i.ibb.co/gmrZGx1/PORTADA.jpg";
     var paisaje = "https://i.ibb.co/rZYPV6n/PORTADA.jpg";
@@ -46,6 +45,9 @@ class Home extends Component {
     var netflix = "https://i.ibb.co/fSGjZVD/PORTADA.jpg";
     var liloystitch = "https://i.ibb.co/zbF2nkB/PORTADA.jpg";
     var ola = "https://i.ibb.co/cCjLDrJ/PORTADA.jpg";
+    var helado = "https://i.ibb.co/Yjbf2Jt/PORTADA.jpg";
+    var harrystyles = "https://i.ibb.co/bsMZ0tB/PORTADA.jpg"
+    var harleyqueen = "https://i.ibb.co/3sPTZd6/PORTADA.jpg"
 
     return (
       <div>
@@ -73,8 +75,8 @@ class Home extends Component {
     <Link to="/Avatar">
       <img src={avatar} className="avatar" alt="Avatar" />
     </Link>  
-    <Link to="/Network">
-      <img src={imageFour} className="imageFour" alt="Galeria" />
+    <Link to="/HarryStyles">
+      <img src={harrystyles} className="HarryStyles" alt="HarryStyles" />
     </Link>  
     <Link to="/EsqueletoMariposa">
       <img src={esqueletoMariposa} className="EsqueletoMariposa" alt="Esqueleto Mariposa" />
@@ -82,7 +84,7 @@ class Home extends Component {
     <Link to="/dragon">
       <img src={dragon} className="dragon" alt="dragon" />
     </Link>  
-    <Link to="/Network">
+    <Link to="/Mariposa">
       <img src={mariposa} className="mariposa" alt="Mariposa" />
     </Link>  
     <Link to="/Simba">
@@ -145,10 +147,13 @@ class Home extends Component {
         </Link> 
         <Link to="/Araña">
         <img src={araña} className="araña" alt="Araña" />
-        </Link> 
-        <Link to="/Arcoiris">
-        <img src={arcoiris} className="arcoiris" alt="Arcoiris" />
-        </Link> 
+        </Link>
+        <Link to="/HarleyQueen">
+        <img src={harleyqueen} className="HarleyQueen" alt="Harley Queen" />
+        </Link>
+        <Link to="/GatoSonriente">
+        <img src={gatosonriente} className="gatosonriente" alt="Gato Sonriente" />
+        </Link>   
         <Link to="/Brillos">
         <img src={brillos} className="brillos" alt="Brillos" />
         </Link> 
@@ -193,7 +198,10 @@ class Home extends Component {
         </Link>
         <Link to="/CadaverdelaNovia">
         <img src={cadaverdelanovia} className="cadaverdelanovia" alt="Cadaver de la Novia" />
-        </Link>     
+        </Link>
+        <Link to="/Helado">
+        <img src={helado} className="helado" alt="Helado" />
+        </Link>       
     </Carousel>   
 </div>    
     );

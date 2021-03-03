@@ -23,7 +23,39 @@ class Esqueleto extends Component {
                   <img src={imageOne}  className="imageOne" alt="Galeria" />
                   <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
                   <img src={imageThree} className="imageThree" alt="Galeria" />
-              </Carousel>   
+              </Carousel> 
+            <div className="video-section">
+                <iframe 
+                    title="esqueleto"
+                    src="https://www.youtube.com/embed/6HmPNEAZQqY"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                        title="esqueleto1"
+                        src="https://www.youtube.com/embed/uV2PyX26zP4"
+                        width="640" 
+                        height="950" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                        title="esqueleto2"
+                        src="https://www.youtube.com/embed/vUCk_vXDKaY"
+                        width="640" 
+                        height="950" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen
+                >
+                </iframe>
+            </div>      
            </div>
         )
     }

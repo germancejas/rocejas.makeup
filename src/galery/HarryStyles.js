@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Carousel from '@brainhubeu/react-carousel';
 
-class Ola extends Component {
+class HarryStyles extends Component {
     render() {
-        var ola = 'https://i.ibb.co/cCjLDrJ/PORTADA.jpg'
-        var ola2 = 'https://i.ibb.co/vQtWq5m/laola.jpg'
-        var ola3 ='https://i.ibb.co/HPk56LR/laola2.jpg'        
+        var harrystyles = 'https://i.ibb.co/bsMZ0tB/PORTADA.jpg'
+        var harrystyles1 = 'https://i.ibb.co/Sdq7D2s/harry.jpg'       
         return (
             <div>
              <div>
@@ -21,15 +20,14 @@ class Ola extends Component {
                   clickToChange
                   centered
               >  
-                  <img src={ola}  className="ola" alt="ola" />
-                  <img src={ola2} className="ola2" alt="Ola2" /> 
-                  <img src={ola3} className="ola3" alt="Ola3" />
+                  <img src={harrystyles}  className="harrystyles" alt="Harry Styles" />
+                  <img src={harrystyles1} className="harrystyles1" alt="Harry Styles 1" /> 
               </Carousel>   
             </div>
               <div className="video-section">
               <iframe 
-                    title="ola"
-                    src="https://www.youtube.com/embed/fcCKENOqa5w" 
+                    title="harrystyles"
+                    src="https://www.youtube.com/embed/zJ9GG9JqOaw"
                     width="640" 
                     height="950" 
                     frameborder="0" 
@@ -38,8 +36,8 @@ class Ola extends Component {
                 >
                 </iframe>
                 <iframe 
-                    title="ola1"
-                    src="https://www.youtube.com/embed/oJ0m2sYb5Pc"
+                    title="harrystyles1"
+                    src="https://www.youtube.com/embed/fHkpD6i4fSg"
                     width="640" 
                     height="950" 
                     frameborder="0" 
@@ -53,4 +51,4 @@ class Ola extends Component {
     }
 }
  
-export default Ola;
+export default HarryStyles;

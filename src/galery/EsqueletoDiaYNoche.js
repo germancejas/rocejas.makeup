@@ -23,7 +23,20 @@ class EsqueletoDiaYNoche extends Component {
                   <img src={imageOne}  className="imageOne" alt="Galeria" />
                   <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
                   <img src={imageThree} className="imageThree" alt="Galeria" />
-              </Carousel>   
+              </Carousel>
+              <div className="video-section">
+                <iframe 
+                    title="esqueletodiaynoche"
+                    src="https://www.youtube.com/embed/a4AlTotouPU" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen 
+                    align="center"
+                >
+                </iframe>
+            </div>       
            </div>
         )
     }

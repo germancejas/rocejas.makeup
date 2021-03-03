@@ -3,8 +3,8 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Brillos extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/jgnTGC6/IMG-9915-Facetune-26-05-2020-22-47-13-Original-jpg.jpg'
-        var imageTwo = 'https://i.ibb.co/gZXm4g9/IMG-9942-Facetune-26-05-2020-22-40-35-Original-jpg.jpg'      
+        var imageOne = 'https://i.ibb.co/8XRmJxr/IMG-9915-Facetune-26-05-2020-22-47-13-Original.jpg'
+        var imageTwo = 'https://i.ibb.co/ZXh5b2D/IMG-9942-Facetune-26-05-2020-22-40-35-Original.jpg'      
         return (
             <div>
              <div>

@@ -26,7 +26,133 @@ class Netflix extends Component {
 
               </Carousel>   
             </div>
+            <div className="video-section">
+              <iframe 
+                    title="netflix3"
+                    src="https://www.youtube.com/embed/uez5Z9DeU28"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix1"
+                    src="https://www.youtube.com/embed/L4So28aCL4Y"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix2"
+                    src="https://www.youtube.com/embed/6Wshrk7M2yc"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+              </div>  
+            <div className="video-section">
+              <iframe 
+                    title="netflix3"
+                    src="https://www.youtube.com/embed/uez5Z9DeU28"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix4"
+                    src="https://www.youtube.com/embed/RmRdq1FVCfI"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix5"
+                    src="https://www.youtube.com/embed/AzZawMn1Jw4"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+              </div>  
+            <div className="video-section">
+              <iframe 
+                    title="netflix6"
+                    src="https://www.youtube.com/embed/h8peULFiAOQ" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix7"
+                    src="https://www.youtube.com/embed/l8oGWrbCJ4Q"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix8"
+                    src="https://www.youtube.com/embed/5yoNuWc5nb8"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+              </div>  
               <div className="video-section">
+              <iframe 
+                    title="netflix9"
+                    src="https://www.youtube.com/embed/3nMQgo_qCjc" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix10"
+                    src="https://www.youtube.com/embed/BxH11qDFNUA"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+              <iframe 
+                    title="netflix11"
+                    src="https://www.youtube.com/embed/SApNuxbZVxA" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

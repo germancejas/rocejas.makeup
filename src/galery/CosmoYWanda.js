@@ -31,7 +31,17 @@ class CosmoYWanda extends Component {
                     title="cosmoywanda" 
                     src="https://player.vimeo.com/video/512541989" 
                     width="640" 
-                    height="1138" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe
+                    title="cosmoywanda" 
+                    src="https://www.youtube.com/embed/68p48gsxjYw" 
+                    width="600" 
+                    height="950" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

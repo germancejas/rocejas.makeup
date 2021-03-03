@@ -29,6 +29,26 @@ class LiloYStitch extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="liloystitch"
+                    src="https://www.youtube.com/embed/HwxzkeOX-Q8" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                    title="liloystitch1"
+                    src="https://www.youtube.com/embed/w7_3JXVDN0U"
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )
