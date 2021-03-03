@@ -26,6 +26,47 @@ class Robot extends Component {
                   <img src={imageThree} className="imageThree" alt="Galeria" />
               </Carousel>   
             </div>
+            <div className="video-section">
+                <iframe 
+                    title="robot1"
+                    src="https://player.vimeo.com/video/518858376" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>    
+                <iframe 
+                    title="robot2" 
+                    src="https://player.vimeo.com/video/518858764" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                    title="robot3"
+                    src="https://player.vimeo.com/video/518862492" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe
+                    title="robot4" 
+                    src="https://player.vimeo.com/video/518870966" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
            </div>
         )
     }

@@ -31,7 +31,7 @@ class Vangogh extends Component {
             <div className="video-section">
             <iframe 
                 title="tiktokvideos"
-                src="https://player.vimeo.com/video/511591348" 
+                src="https://player.vimeo.com/video/518778964"
                 width="640" 
                 height="1138" 
                 frameborder="0" 
@@ -39,6 +39,15 @@ class Vangogh extends Component {
                 allowfullscreen 
                 align="center">
             </iframe>
+            <iframe 
+                src="https://player.vimeo.com/video/518624584" 
+                width="640" 
+                height="1138" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                >
+                </iframe>
             </div>
          </div>
         )

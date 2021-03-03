@@ -27,6 +27,25 @@ class Payaso extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="payaso1" 
+                    src="https://player.vimeo.com/video/518872475" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                    title="payaso2"
+                    src="https://player.vimeo.com/video/518880446" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

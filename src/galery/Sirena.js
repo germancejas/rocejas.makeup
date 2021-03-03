@@ -26,7 +26,15 @@ class Sirena extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-
+                <iframe 
+                    title="sirena" 
+                    src="https://player.vimeo.com/video/518854526" 
+                    width="640" 
+                    height="1000" 
+                    frameborder="0" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

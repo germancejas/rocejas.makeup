@@ -27,6 +27,16 @@ class Olaf extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    src="https://streamable.com/e/63owty" 
+                    frameborder="0" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                    >
+                </iframe>
               </div>
            </div>
         )

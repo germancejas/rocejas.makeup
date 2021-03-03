@@ -3,8 +3,8 @@ import Carousel from '@brainhubeu/react-carousel';
 
 class Tigre extends Component {
     render() {
-        var imageOne = 'https://i.ibb.co/fqkLNrx/PORTADA-1.jpg'
-        var imageTwo = 'https://i.ibb.co/FXbVr8b/tigre.jpg'
+        var imageOne = 'https://i.ibb.co/yPX72hK/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/nzcTW7M/tigre.jpg'
       
         return (
             <div>
@@ -27,7 +27,15 @@ class Tigre extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-             
+                <iframe 
+                    src="https://player.vimeo.com/video/518799631" 
+                    width="640" 
+                    height="568" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                    >
+                </iframe>
               </div>
            </div>
         )

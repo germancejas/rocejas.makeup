@@ -45,6 +45,8 @@ import LiloYStitch from "./galery/LiloYStitch";
 import Leon from "./galery/Leon";
 import Ola from "./galery/Ola";
 import Up from "./galery/Up";
+import Stitch from "./galery/Stitch";
+import Social from "./galery/Social";
 
 class Main extends Component {
   render() {
@@ -112,6 +114,8 @@ class Main extends Component {
             <Route path="/Leon" component={Leon}/>
             <Route path="/Ola" component={Ola}/>
             <Route path="/Up" component={Up}/>
+            <Route path="/Stitch" component={Stitch}/>
+            <Route path="/Social" component={Social}/>
           </div>
             <div className="youTubeMain">
               <iframe 

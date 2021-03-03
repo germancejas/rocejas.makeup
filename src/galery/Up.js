@@ -27,6 +27,23 @@ class Up extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="up" 
+                    src="https://player.vimeo.com/video/518798666" 
+                    width="640" 
+                    height="803" 
+                    frameborder="0" 
+                    allowfullscreen
+                    >
+                    </iframe>  
+                <iframe 
+                    title="up1" 
+                    src="https://player.vimeo.com/video/518797529" 
+                    width="640" height="1137" 
+                    frameborder="0" 
+                    allowfullscreen
+                >
+                </iframe>   
               </div>
            </div>
         )

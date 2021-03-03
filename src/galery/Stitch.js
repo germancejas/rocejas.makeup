@@ -26,6 +26,15 @@ class Stitch extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="Stitch" 
+                    src="https://player.vimeo.com/video/518804254" 
+                    width="640" 
+                    height="800" 
+                    frameborder="0" 
+                    allowfullscreen
+                >  
+                </iframe>
               </div>
            </div>
         )

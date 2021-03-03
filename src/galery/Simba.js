@@ -27,6 +27,35 @@ class Simba extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="Simba1" 
+                    src="https://player.vimeo.com/video/518855770" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe 
+                    title="Simba2"                    
+                    src="https://player.vimeo.com/video/518856458" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                    >
+                </iframe>
+                <iframe 
+                    title="simba3"
+                    src="https://player.vimeo.com/video/518857419" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                    </iframe>
               </div>
            </div>
         )

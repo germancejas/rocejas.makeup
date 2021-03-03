@@ -27,6 +27,16 @@ class Olaf2 extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
+                <iframe 
+                    title="olaf 2"
+                    src="https://player.vimeo.com/video/518885484" 
+                    width="640" 
+                    height="950" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                >
+                </iframe>
               </div>
            </div>
         )

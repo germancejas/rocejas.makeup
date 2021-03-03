@@ -36,7 +36,7 @@ class Home extends Component {
     var sirena = "https://i.ibb.co/fdrg2dQ/PORTADA.jpg";
     var social = "https://i.ibb.co/NZzCLR3/PORTADA.jpg";
     var stitch = "https://i.ibb.co/FbYC3ZL/PORTADA.jpg";
-    var tigre = "";
+    var tigre = "https://i.ibb.co/yPX72hK/PORTADA.jpg";
     var up = "https://i.ibb.co/LrL7JtR/PORTADA.jpg";
     var groot = "https://i.ibb.co/xDHVNpT/PORTADA.jpg";
     var cosmoywanda = "https://i.ibb.co/CQx3wRZ/PORTADA-1.jpg";
@@ -193,7 +193,7 @@ class Home extends Component {
         </Link>
         <Link to="/CadaverdelaNovia">
         <img src={cadaverdelanovia} className="cadaverdelanovia" alt="Cadaver de la Novia" />
-        </Link>    
+        </Link>     
     </Carousel>   
 </div>    
     );
