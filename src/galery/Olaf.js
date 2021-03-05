@@ -7,15 +7,15 @@ class Olaf extends Component {
         var imageTwo = 'https://i.ibb.co/k8PvLLb/olaf.jpg'
         var imageThree ='https://i.ibb.co/bsqvvqt/olaf2.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -31,8 +31,8 @@ class Olaf extends Component {
                     title="olaf1"
                     src="https://streamable.com/e/63owty" 
                     frameborder="0" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -41,8 +41,8 @@ class Olaf extends Component {
                 <iframe 
                     title="olaf2"
                     src="https://streamable.com/e/mt927o" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -51,8 +51,8 @@ class Olaf extends Component {
                 <iframe 
                     title="olaf3"
                     src="https://www.youtube.com/embed/2Up-pr8axF8" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

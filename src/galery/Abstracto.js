@@ -6,8 +6,8 @@ class Abstracto extends Component {
         var imageOne = 'https://i.ibb.co/6RZWwjY/PORTADA-1.jpg'
         var imageTwo = 'https://i.ibb.co/ZGv0sdg/Abstracto.jpg'      
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"

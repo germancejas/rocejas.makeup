@@ -9,15 +9,15 @@ class Vangogh extends Component {
         var imageThree ='https://i.ibb.co/4JbXBhY/IMG-2297-Facetune-16-07-2020-19-24-31-Original.jpg'
         
         return (
-         <div>
-          <div>
+        <div className="galery">
+        <div className="galerycarousel">
             <Carousel
                 arrows
                 className="carousel"
                 slidesPerPage={1}
                 slidesPerScroll={1}
                 animationSpeed={2500}
-                autoPlay={1500}
+                autoPlay={2000}
                 stopAutoPlayOnHover
                 itemWidth={500}
                 clickToChange
@@ -32,8 +32,8 @@ class Vangogh extends Component {
             <iframe 
                 title="tiktokvideos"
                 src="https://player.vimeo.com/video/518778964"
-                width="640" 
-                height="1138" 
+                width="720" 
+                height="730" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen 
@@ -41,8 +41,8 @@ class Vangogh extends Component {
             </iframe>
             <iframe 
                 src="https://player.vimeo.com/video/518624584" 
-                width="640" 
-                height="1138" 
+                width="720" 
+                height="730" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen

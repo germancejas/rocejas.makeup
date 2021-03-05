@@ -8,15 +8,15 @@ class Avatar extends Component {
         var avatar3 ='https://i.ibb.co/jDD3j7s/Avatar2.jpg';    
         var avatar4 ='https://i.ibb.co/jDD3j7s/Avatar2.jpg';       
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -32,8 +32,8 @@ class Avatar extends Component {
                 <iframe 
                     title="avatar"
                     src="https://player.vimeo.com/video/512540274" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -42,8 +42,8 @@ class Avatar extends Component {
                 <iframe 
                     title="avatar1"
                     src="https://player.vimeo.com/video/512540113" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -52,8 +52,8 @@ class Avatar extends Component {
                 <iframe 
                     title="avatar2"
                     src="https://player.vimeo.com/video/512539902" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

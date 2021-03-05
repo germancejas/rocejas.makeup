@@ -7,15 +7,15 @@ class Arcoiris extends Component {
         var imageTwo = 'https://fotos.subefotos.com/823c38887f9a847345b56b1344241975o.jpg'
         var imageThree ='https://fotos.subefotos.com/c7520e892b6270a8b0c41df5aa9d7475o.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -27,8 +27,17 @@ class Arcoiris extends Component {
               </Carousel>   
             </div>
               <div className="video-section">
-              <iframe src="https://player.vimeo.com/video/511591348" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen align="center"></iframe>
-              </div>
+                <iframe 
+                    src="https://player.vimeo.com/video/511591348" 
+                    width="720" 
+                    height="730" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen 
+                    align="center"
+                >
+                </iframe>
+            </div>
            </div>
         )
     }

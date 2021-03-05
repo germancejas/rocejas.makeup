@@ -6,15 +6,15 @@ class Stitch extends Component {
         var imageOne = 'https://i.ibb.co/FbYC3ZL/PORTADA.jpg'
         var imageTwo = 'https://i.ibb.co/PT7RhDL/stitch.jpg'     
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -29,8 +29,8 @@ class Stitch extends Component {
                 <iframe 
                     title="Stitch" 
                     src="https://player.vimeo.com/video/518804254" 
-                    width="640" 
-                    height="800" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allowfullscreen
                 >  

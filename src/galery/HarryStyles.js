@@ -6,15 +6,15 @@ class HarryStyles extends Component {
         var harrystyles = 'https://i.ibb.co/bsMZ0tB/PORTADA.jpg'
         var harrystyles1 = 'https://i.ibb.co/Sdq7D2s/harry.jpg'       
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -28,8 +28,8 @@ class HarryStyles extends Component {
               <iframe 
                     title="harrystyles"
                     src="https://www.youtube.com/embed/zJ9GG9JqOaw"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -38,8 +38,8 @@ class HarryStyles extends Component {
                 <iframe 
                     title="harrystyles1"
                     src="https://www.youtube.com/embed/fHkpD6i4fSg"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

@@ -7,15 +7,15 @@ class ConejoBlanco extends Component {
         var imageTwo = 'https://i.ibb.co/wC5HtRQ/conejo2.jpg'
         var imageThree ='https://i.ibb.co/C57J1kX/conejo1.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class ConejoBlanco extends Component {
                 <iframe   
                     title="conejoblanco"
                     src="https://player.vimeo.com/video/512541722" 
-                    width="600" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

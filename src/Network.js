@@ -32,7 +32,7 @@ class Network extends Component {
           className="instagramEmbed"
           url='https://www.instagram.com/p/CC9g_xRANNN/'
           clientAccessToken='2914904478766935|19cd7695d4c170463a4cc88dfc76ac4a'
-          maxWidth={500}
+          maxWidth={300}
           hideCaption={false}
           containerTagName='div'
           protocol=''
@@ -48,8 +48,8 @@ class Network extends Component {
         <iframe 
           className="youTubeIframe"
           title="youtube"
-          width="800" 
-          height="600"  
+          width="720" 
+          height="730" 
           src="https://www.youtube.com/embed/DVBSdaF9iaw" 
           frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

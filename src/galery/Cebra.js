@@ -7,15 +7,15 @@ class Cebra extends Component {
         var imageTwo = 'https://i.ibb.co/NKP93dj/Cebra1.jpg'
     
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -29,8 +29,8 @@ class Cebra extends Component {
             <div className="video-section">
                 <iframe 
                     title="cebra"
-                    width="900" 
-                    height="600" 
+                    width="720" 
+                    height="730" 
                     src="https://www.youtube.com/embed/DVBSdaF9iaw" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

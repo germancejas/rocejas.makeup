@@ -7,15 +7,15 @@ class Simba extends Component {
         var imageTwo = 'https://i.ibb.co/vHXNGhY/simba.jpg'
        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Simba extends Component {
                 <iframe 
                     title="Simba1" 
                     src="https://player.vimeo.com/video/518855770" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730"  
                     frameborder="0" 
                     allowfullscreen
                 >
@@ -39,8 +39,8 @@ class Simba extends Component {
                 <iframe 
                     title="Simba2"                    
                     src="https://player.vimeo.com/video/518856458" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -49,8 +49,8 @@ class Simba extends Component {
                 <iframe 
                     title="simba3"
                     src="https://player.vimeo.com/video/518857419" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

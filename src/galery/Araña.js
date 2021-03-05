@@ -7,15 +7,15 @@ class Araña extends Component {
         var imageTwo = 'https://i.ibb.co/dQpMw56/Ara-a1.jpg'
         var imageThree ='https://i.ibb.co/5Rh6YyG/Ara-a2.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Araña extends Component {
                 <iframe 
                     title="araña"
                     src="https://player.vimeo.com/video/512538925" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen 
@@ -40,8 +40,8 @@ class Araña extends Component {
                 <iframe 
                     title="araña2"
                     src="https://player.vimeo.com/video/512538770" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen>

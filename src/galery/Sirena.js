@@ -7,15 +7,15 @@ class Sirena extends Component {
         var imageTwo = 'https://i.ibb.co/6BNfdSy/sirena.jpg'
     
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -29,8 +29,8 @@ class Sirena extends Component {
                 <iframe 
                     title="sirena" 
                     src="https://player.vimeo.com/video/518854526" 
-                    width="640" 
-                    height="1000" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allowfullscreen
                 >

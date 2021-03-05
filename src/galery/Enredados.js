@@ -7,15 +7,15 @@ class Enredados extends Component {
         var imageTwo = 'https://i.ibb.co/yX0brpz/enredadosa.jpg'
         var imageThree ='https://i.ibb.co/0YdNPqB/enredados.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Enredados extends Component {
               <iframe 
                 title="enredados1"
                 src="https://www.youtube.com/embed/xK3MdRKg7MA" 
-                width="640" 
-                height="950" 
+                width="720" 
+                height="730" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen 
@@ -39,8 +39,8 @@ class Enredados extends Component {
             <iframe 
                 title="enredados2"
                 src="https://www.youtube.com/embed/toBFzxrBC5M" 
-                width="640" 
-                height="950" 
+                width="720" 
+                height="730" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen 

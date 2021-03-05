@@ -7,8 +7,8 @@ class Dragon extends Component {
         var imageTwo = 'https://i.ibb.co/qF9CNqs/dragon.jpg'
         var imageThree ='https://i.ibb.co/1MCgJRL/dragon2.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
@@ -30,8 +30,8 @@ class Dragon extends Component {
                 <iframe 
                     title="dragon"
                     src="https://player.vimeo.com/video/512543854" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -40,8 +40,8 @@ class Dragon extends Component {
                 <iframe 
                     title="dragon1"
                     src="https://www.youtube.com/embed/onXB7sAprcM" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

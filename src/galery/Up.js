@@ -7,15 +7,15 @@ class Up extends Component {
         var imageTwo = 'https://i.ibb.co/vB0cYsv/up.jpg'
 
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Up extends Component {
                 <iframe 
                     title="up" 
                     src="https://player.vimeo.com/video/518798666" 
-                    width="640" 
-                    height="803" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allowfullscreen
                     >
@@ -39,7 +39,8 @@ class Up extends Component {
                 <iframe 
                     title="up1" 
                     src="https://player.vimeo.com/video/518797529" 
-                    width="640" height="1137" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allowfullscreen
                 >

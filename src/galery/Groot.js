@@ -7,15 +7,15 @@ class Groot extends Component {
         var imageTwo = 'https://i.ibb.co/StPCNWD/groot.jpg'
         var imageThree ='https://i.ibb.co/wWF12NC/groot2.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Groot extends Component {
                 <iframe 
                     title="groot"
                     src="https://www.youtube.com/embed/D21HaWI_90s"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -40,8 +40,8 @@ class Groot extends Component {
                 <iframe 
                     title="groot2"
                     src="https://www.youtube.com/embed/y7JHaTjgHSo" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730"  
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -50,8 +50,8 @@ class Groot extends Component {
                 <iframe 
                     title="groot3"
                     src="https://player.vimeo.com/video/512552143" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

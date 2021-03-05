@@ -7,15 +7,15 @@ class Robot extends Component {
         var imageTwo = 'https://i.ibb.co/59mHByr/robot.jpg'
         var imageThree ='https://i.ibb.co/Yy34n4j/robot2.jpg'        
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Robot extends Component {
                 <iframe 
                     title="robot1"
                     src="https://player.vimeo.com/video/518858376" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -40,8 +40,8 @@ class Robot extends Component {
                 <iframe 
                     title="robot2" 
                     src="https://player.vimeo.com/video/518858764" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allowfullscreen
                 >
@@ -49,8 +49,8 @@ class Robot extends Component {
                 <iframe 
                     title="robot3"
                     src="https://player.vimeo.com/video/518862492" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -59,8 +59,8 @@ class Robot extends Component {
                 <iframe
                     title="robot4" 
                     src="https://player.vimeo.com/video/518870966" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

@@ -58,18 +58,18 @@ class Main extends Component {
   render() {
     return (
         <HashRouter>
-          <div>
-            <div className="title">
-              <h1>Ro Cejas</h1>
-              <h2>Makeup</h2>
-            </div>
-          <div className="navbar">
+          <div className="main">
+            <div className="header">
             <img 
               src='https://i.ibb.co/GkS58z1/LOGO-FONDO-BLANCO.png' 
               alt="Logo"
               className='logo'
             />
-            <ul className="header">
+              <h1>Ro Cejas</h1>
+              <h2>Makeup</h2>
+            </div>
+            <div className="navbar">
+            <ul className="navlist">
               <li><NavLink exact to="/">Galeria</NavLink></li>
               <li><NavLink to="/network">Redes</NavLink></li>
               <li><NavLink to="/courses">Cursos</NavLink></li>

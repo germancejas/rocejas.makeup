@@ -7,15 +7,15 @@ class HarleyQueen extends Component {
         var harleyqueen1 = 'https://i.ibb.co/vkQk32h/harley.jpg' 
         var harleyqueen2 = 'https://i.ibb.co/JymjD2q/harley2.jpg'      
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class HarleyQueen extends Component {
               <iframe 
                     title="harleyqueen"
                     src="https://player.vimeo.com/video/512931836"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -40,8 +40,8 @@ class HarleyQueen extends Component {
                 <iframe 
                     title="harleyqueen1"
                     src="https://www.youtube.com/embed/Qs_l_NZ9ALA"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

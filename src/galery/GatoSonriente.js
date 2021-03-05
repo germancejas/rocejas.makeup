@@ -8,15 +8,15 @@ class GatoSonriente extends Component {
         var gatosonriente2 = "https://i.ibb.co/vX8SYdG/gatosonriente2.jpg"
     
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -31,8 +31,8 @@ class GatoSonriente extends Component {
                 <iframe 
                     title="gatosonriente"
                     src="https://www.youtube.com/embed/8KkvItGD86M" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

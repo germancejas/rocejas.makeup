@@ -9,15 +9,15 @@ class Social extends Component {
         var social4 = "https://i.ibb.co/FWWXnZY/social2.jpg";
         var social5 = "https://i.ibb.co/6mXtzPR/social3.jpg";    
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange

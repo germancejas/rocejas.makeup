@@ -6,15 +6,15 @@ class Demogorgon extends Component {
         var imageOne = 'https://i.ibb.co/8XJDPSX/PORTADA-6.jpg'
         var imageTwo = 'https://i.ibb.co/qnRdTKp/demogorgon.jpg'       
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -28,8 +28,8 @@ class Demogorgon extends Component {
                 <iframe 
                     title="demogorgon"
                     src="https://player.vimeo.com/video/512542602" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen
@@ -38,8 +38,8 @@ class Demogorgon extends Component {
                 <iframe 
                     title="demogorgon2"
                     src="https://player.vimeo.com/video/512542731" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

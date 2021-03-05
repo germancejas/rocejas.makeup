@@ -7,15 +7,15 @@ class Tigre extends Component {
         var imageTwo = 'https://i.ibb.co/nzcTW7M/tigre.jpg'
       
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -29,8 +29,8 @@ class Tigre extends Component {
               <div className="video-section">
                 <iframe 
                     src="https://player.vimeo.com/video/518799631" 
-                    width="640" 
-                    height="568" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

@@ -57,7 +57,7 @@ class Home extends Component {
         slidesPerPage={100}
         slidesPerScroll={1}
         animationSpeed={2500}
-        autoPlay={1500}
+        autoPlay={2000}
         stopAutoPlayOnHover
         itemWidth={500}
         clickToChange
@@ -136,7 +136,7 @@ class Home extends Component {
         slidesPerPage={100}
         slidesPerScroll={1}
         animationSpeed={2500}
-        autoPlay={1500}
+        autoPlay={2000}
         stopAutoPlayOnHover
         itemWidth={500}
         clickToChange

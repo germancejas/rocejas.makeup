@@ -7,15 +7,15 @@ class EsqueletoMariposa extends Component {
         var esqueletomariposa2 = 'https://i.ibb.co/X5gGfg8/esqmariposa.jpg';
         var esqueletomariposa3 ='https://i.ibb.co/XW0rdvB/esqmariposa2.jpg';    
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class EsqueletoMariposa extends Component {
             <iframe 
                 title="esqueletomariposa"
                 src="https://www.youtube.com/embed/qu0b-5_D7eM"
-                width="640" 
-                height="950" 
+                width="720" 
+                height="730" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
                 allowfullscreen
@@ -40,8 +40,8 @@ class EsqueletoMariposa extends Component {
                 <iframe 
                     title="esqueletomariposa1"
                     src="https://player.vimeo.com/video/512549530"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

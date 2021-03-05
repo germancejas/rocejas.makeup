@@ -6,15 +6,15 @@ class Brillos extends Component {
         var imageOne = 'https://i.ibb.co/8XRmJxr/IMG-9915-Facetune-26-05-2020-22-47-13-Original.jpg'
         var imageTwo = 'https://i.ibb.co/ZXh5b2D/IMG-9942-Facetune-26-05-2020-22-40-35-Original.jpg'      
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -28,8 +28,8 @@ class Brillos extends Component {
                 <iframe 
                     title="brillos"
                     src="https://player.vimeo.com/video/512540911" 
-                    width="640" 
-                    height="1138" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowfullscreen

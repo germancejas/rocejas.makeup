@@ -7,15 +7,15 @@ class Netflix extends Component {
         var imageTwo = 'https://i.ibb.co/hd8cG8w/netflix.jpg'
      
         return (
-            <div>
-             <div>
+          <div className="galery">
+          <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -30,8 +30,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix3"
                     src="https://www.youtube.com/embed/uez5Z9DeU28"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -40,8 +40,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix1"
                     src="https://www.youtube.com/embed/L4So28aCL4Y"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -50,8 +50,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix2"
                     src="https://www.youtube.com/embed/6Wshrk7M2yc"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -62,8 +62,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix3"
                     src="https://www.youtube.com/embed/uez5Z9DeU28"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -72,8 +72,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix4"
                     src="https://www.youtube.com/embed/RmRdq1FVCfI"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -82,8 +82,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix5"
                     src="https://www.youtube.com/embed/AzZawMn1Jw4"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -94,8 +94,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix6"
                     src="https://www.youtube.com/embed/h8peULFiAOQ" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -104,8 +104,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix7"
                     src="https://www.youtube.com/embed/l8oGWrbCJ4Q"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -114,8 +114,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix8"
                     src="https://www.youtube.com/embed/5yoNuWc5nb8"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -126,8 +126,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix9"
                     src="https://www.youtube.com/embed/3nMQgo_qCjc" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -136,8 +136,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix10"
                     src="https://www.youtube.com/embed/BxH11qDFNUA"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
@@ -146,8 +146,8 @@ class Netflix extends Component {
               <iframe 
                     title="netflix11"
                     src="https://www.youtube.com/embed/SApNuxbZVxA" 
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen

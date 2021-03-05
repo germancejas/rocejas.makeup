@@ -6,15 +6,15 @@ class Helado extends Component {
         var helado = 'https://i.ibb.co/Yjbf2Jt/PORTADA.jpg'
         var helado1 = 'https://i.ibb.co/sm89m6D/helado.jpg'       
         return (
-            <div>
-             <div>
+            <div className="galery">
+             <div className="galerycarousel">
               <Carousel
                   arrows
                   className="carousel"
                   slidesPerPage={1}
                   slidesPerScroll={1}
                   animationSpeed={2500}
-                  autoPlay={1500}
+                  autoPlay={2000}
                   stopAutoPlayOnHover
                   itemWidth={500}
                   clickToChange
@@ -29,8 +29,8 @@ class Helado extends Component {
               <iframe 
                     title="helado"
                     src="https://www.youtube.com/embed/ybZT_d3_ugk"
-                    width="640" 
-                    height="950" 
+                    width="720" 
+                    height="730" 
                     frameborder="0" 
                     allow="autoplay; fullscreen" 
                     allowfullscreen
