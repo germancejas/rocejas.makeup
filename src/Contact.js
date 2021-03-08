@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import React, { Component } from "react";
- 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-
-      </div>
-    );
-  }
-}
- 
-=======
 import React, { Component } from "react";
  
 class Contact extends Component {
@@ -27,5 +13,4 @@ class Contact extends Component {
   }
 }
  
->>>>>>> e7be3dbb069003657ab0a6ec486848b7fdd2f1ab
 export default Contact;
