@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
  
 class Courses extends Component {
@@ -24,4 +25,18 @@ class Courses extends Component {
   }
 }
  
+=======
+import React, { Component } from "react";
+ 
+class Courses extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Proximamente</h1>
+      </div>
+    );
+  }
+}
+ 
+>>>>>>> e7be3dbb069003657ab0a6ec486848b7fdd2f1ab
 export default Courses;

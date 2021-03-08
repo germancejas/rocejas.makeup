@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: #DFAE76;
   margin: 0;
@@ -139,3 +140,471 @@ ul.header li a {
 .youTubeRedes h1 {
   text-align: center;
 }
+=======
+
+@media (max-width: 2560px) {
+body {
+  background-color: #DFAE76;
+  margin: 0;
+  font-family: 'Alegreya SC', serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .logo {  
+  width: 20%;
+  margin-left:2%;
+  margin-top: 0%;
+  
+ }
+.header h1 {
+  margin-right: 10px;
+  font-family: 'Parisienne', cursive;
+  font-size: 120px;
+  margin-left: 10%;
+  margin-top: 0%;
+
+}
+.header h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 100px;
+  margin-top: 0%;
+  margin-left: 2%;
+}
+
+.navbar {
+  background-color: #BD8D56;
+
+}
+.navbar .navlist {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-self: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: 'Alegreya SC', serif;
+}
+.navbar a {
+  color: #030303;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a:hover {
+  color: rgb(204, 31, 103);
+}
+.content {
+  background-color: #BD8D56;
+ 
+}
+.active {
+  background-color: #f0f0f0c4;
+}
+.carousel {
+  width: 100%;
+  height:100%;
+  background-color: #BD8D56;
+}
+
+.youTubeMain {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.redes {
+  display:flex;
+  flex-direction: row;
+  background-color: #f6f6f6;
+}
+.tiktokRedes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 4px solid #bd8d56
+}
+.tiktokRedes h1 {
+  text-align: center;
+}
+.instagram {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 3px solid #bd8d56
+}
+.instagram h1 {
+  text-align: center;
+}
+.instagramEmbed {
+  width: 100%;
+  height: 100%;
+  margin-left: 8%;
+}
+.youTubeRedes {
+  border: 4px solid #bd8d56
+}
+.youTubeRedes h1 {
+  text-align: center;
+}
+.video-section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: #bd8d56 solid;
+}
+
+}
+
+  
+@media (max-width: 900px) {
+  body {
+    background-color: #DFAE76;
+    margin: 0;
+    font-family: 'Alegreya SC', serif;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+  
+    display: flex;
+    flex-direction: column;
+
+  }
+  .header .logo {  
+    height: 70%;
+    width: 70%;
+    margin-left:2%; 
+   }
+
+  .header h1 {
+    display: none ;
+  
+  }
+  .header h2 {
+    display: none ;
+  }
+  .navbar {
+    background-color: #BD8D56;
+  
+  }
+  .navbar .navlist {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Alegreya SC', serif;
+  }
+  .navbar a {
+    color: #030303;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar a:hover {
+    color: rgb(204, 31, 103);
+  }
+  .content {
+    background-color: #BD8D56;
+  }
+  .active {
+    background-color: #f0f0f0c4;
+  }
+  .carousel {
+    width: 100%;
+    height:100%;
+    background-color: #BD8D56;
+  }
+  .youTubeMain {
+    width: auto;
+  
+  }
+  .redes {
+    display:flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+  }
+  .tiktokRedes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 4px solid #bd8d56
+  }
+  .tiktokRedes h1 {
+    text-align: center;
+  }
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    border: 3px solid #bd8d56
+  }
+  .instagram h1 {
+    text-align: center;
+  }
+  .instagramEmbed {
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
+  }
+  .youTubeRedes {
+    border: 4px solid #bd8d56
+  }
+  .youTubeRedes h1 {
+    text-align: center;
+  }
+  .video-section {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: #bd8d56 solid;
+  }
+
+  }
+
+  @media (max-width: 600px) {
+    body {
+      background-color: #DFAE76;
+      margin: 0;
+      font-family: 'Alegreya SC', serif;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+    
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .header .logo {  
+      height: 70%;
+      width: 70%;
+      margin-left:2%; 
+     }
+  
+    .header h1 {
+      display: none ;
+    
+    }
+    .header h2 {
+      display: none ;
+    }
+    .navbar {
+      background-color: #BD8D56;
+    
+    }
+    .navbar .navlist {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      align-self: center;
+      justify-content: space-between;
+      list-style-type: none;
+      font-family: 'Alegreya SC', serif;
+    }
+    .navbar a {
+      color: #030303;
+      font-weight: bold;
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar a:hover {
+      color: rgb(204, 31, 103);
+    }
+    .content {
+      background-color: #BD8D56;
+    }
+    .active {
+      background-color: #f0f0f0c4;
+    }
+    .carousel {
+      width: 100%;
+      height:100%;
+      background-color: #BD8D56;
+    }
+    .youTubeMain {
+      width: auto;
+      margin-left: 5%;
+    
+    }
+    .redes {
+      display:flex;
+      flex-direction: column;
+      background-color: #f6f6f6;
+    }
+    .tiktokRedes {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border: 4px solid #bd8d56
+    }
+    .tiktokRedes h1 {
+      text-align: center;
+    }
+    .instagram {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 100%;
+      border: 3px solid #bd8d56
+    }
+    .instagram h1 {
+      text-align: center;
+    }
+    .instagramEmbed {
+      width: 100%;
+      height: 100%;
+      margin-left: 20%;
+    }
+    .youTubeRedes {
+      border: 4px solid #bd8d56
+    }
+    .youTubeRedes h1 {
+      text-align: center;
+    }
+    .video-section {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: #bd8d56 solid;
+    }
+  
+    }
+
+    @media (max-width: 450px) {
+      body {
+        background-color: #DFAE76;
+        margin: 0;
+        font-family: 'Alegreya SC', serif;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+      }
+      .header { 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    
+      }
+      .header .logo {  
+        height: 80%;
+        width: 80%;
+       }
+    
+      .header h1 {
+        display: none ;
+      
+      }
+      .header h2 {
+        display: none ;
+      }
+      .navbar {
+        background-color: #BD8D56;
+      
+      }
+      .navbar .navlist {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-self: center;
+        justify-content: space-between;
+        list-style-type: none;
+        font-family: 'Alegreya SC', serif;
+      }
+      .navbar a {
+        color: #030303;
+        font-weight: bold;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .navbar a:hover {
+        color: rgb(204, 31, 103);
+      }
+      .content {
+        background-color: #BD8D56;
+      }
+      .active {
+        background-color: #f0f0f0c4;
+      }
+      .carousel {
+        width: 100%;
+        height:100%;
+        background-color: #BD8D56;
+      }
+      .galerycarousel {
+        width: 80%;
+      }
+      .youTubeMain {
+        width: auto;
+        margin-right: 5%;
+      }
+      .redes {
+        display:flex;
+        flex-direction: column;
+        background-color: #f6f6f6;
+      }
+      .tiktokRedes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 4px solid #bd8d56
+      }
+      .tiktokRedes h1 {
+        text-align: center;
+      }
+      .instagram {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        border: 3px solid #bd8d56
+      }
+      .instagram h1 {
+        text-align: center;
+      }
+      .instagramEmbed {
+        width: 100%;
+        height: 100%;
+      }
+      .youTubeRedes {
+        border: 4px solid #bd8d56
+      }
+      .youTubeRedes h1 {
+        text-align: center;
+      }
+      .video-section {
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: #bd8d56 solid;
+      }
+    
+      }
+>>>>>>> e7be3dbb069003657ab0a6ec486848b7fdd2f1ab

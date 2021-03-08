@@ -1,0 +1,45 @@
+import React, { Component } from "react";
+import Carousel from '@brainhubeu/react-carousel';
+
+class Tigre extends Component {
+    render() {
+        var imageOne = 'https://i.ibb.co/yPX72hK/PORTADA.jpg'
+        var imageTwo = 'https://i.ibb.co/nzcTW7M/tigre.jpg'
+      
+        return (
+            <div className="galery">
+             <div className="galerycarousel">
+              <Carousel
+                  arrows
+                  className="carousel"
+                  slidesPerPage={1}
+                  slidesPerScroll={1}
+                  animationSpeed={2500}
+                  autoPlay={2000}
+                  stopAutoPlayOnHover
+                  itemWidth={500}
+                  clickToChange
+                  centered
+              >  
+                  <img src={imageOne}  className="imageOne" alt="Galeria" />
+                  <img src={imageTwo} className="imageTwo" alt="Galeria" /> 
+
+              </Carousel>   
+            </div>
+              <div className="video-section">
+                <iframe 
+                    src="https://player.vimeo.com/video/518799631" 
+                    width="720" 
+                    height="730" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen
+                    >
+                </iframe>
+              </div>
+           </div>
+        )
+    }
+}
+ 
+export default Tigre;
